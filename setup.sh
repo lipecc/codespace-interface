@@ -7,7 +7,7 @@ sudo apt update -y
 sudo apt upgrade -y
 
 echo "[2/7] Instalando LXDE + utilitários..."
-sudo apt install -y lxde-core lxterminal leafpad
+apt install -y lxde-core lxterminal mousepad
 
 echo "[3/7] Instalando Xvfb e x11vnc..."
 sudo apt install -y xvfb x11vnc xdotool
@@ -47,3 +47,4 @@ echo "Instalação completa!"
 echo "Para iniciar o desktop via VNC:"
 echo "    ./start-desktop.sh"
 echo "Conectar VNC em: porta 5900, senha 123456"
+
